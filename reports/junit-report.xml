@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="regis;regis-on-digiclinic-user" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:\Automation Testing\Functional-Testing-Pro3\features\regis.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse regis page" classname="regis;regis-on-digiclinic-user" time="0.0012133">
+        </testcase>
+        <testcase name="And user click regis menu" classname="regis;regis-on-digiclinic-user" time="0.0031055">
+        </testcase>
+        <testcase name="And User click submenuRegis to regis" classname="regis;regis-on-digiclinic-user" time="0.0010935">
+        </testcase>
+        <testcase name="And user fill fullname to regis" classname="regis;regis-on-digiclinic-user" time="0.0010194">
+        </testcase>
+        <testcase name="And user fill email to regis" classname="regis;regis-on-digiclinic-user" time="0.0004177">
+        </testcase>
+        <testcase name="And user fill phoneno to regis" classname="regis;regis-on-digiclinic-user" time="0.0003756">
+        </testcase>
+        <testcase name="When user fill clinicname to regis" classname="regis;regis-on-digiclinic-user" time="0.0003089">
+        </testcase>
+        <testcase name="Then user click regis button" classname="regis;regis-on-digiclinic-user" time="0.00033">
+        </testcase>
+    </testsuite>
+</testsuites>

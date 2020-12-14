@@ -1,0 +1,27 @@
+{
+  "name": "functionaltestingpro3",
+  "version": "1.0.0",
+  "description": "functional test of project",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^87.0.3",
+    "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.8.1"
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+    "test-headless": "node ./index.js -s ./step-definitions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.playcourt.id/.git"
+  },
+  "keywords": [
+    "Functional-Testing-Pro3",
+    "testing"
+  ],
+  "author": "Nurliaha",
+  "license": "ISC"
+}

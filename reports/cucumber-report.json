@@ -1,0 +1,139 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to regis",
+    "elements": [
+      {
+        "id": "regis;regis-on-digiclinic-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Regis on digiclinic user",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse regis page",
+            "result": {
+              "status": "passed",
+              "duration": 1213300
+            },
+            "line": 8,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click regis menu",
+            "result": {
+              "status": "passed",
+              "duration": 3105500
+            },
+            "line": 9,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User click submenuRegis to regis",
+            "result": {
+              "status": "passed",
+              "duration": 1093500
+            },
+            "line": 10,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill fullname to regis",
+            "result": {
+              "status": "passed",
+              "duration": 1019400
+            },
+            "line": 11,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email to regis",
+            "result": {
+              "status": "passed",
+              "duration": 417700
+            },
+            "line": 12,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill phoneno to regis",
+            "result": {
+              "status": "passed",
+              "duration": 375600
+            },
+            "line": 13,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user fill clinicname to regis",
+            "result": {
+              "status": "passed",
+              "duration": 308900
+            },
+            "line": 14,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click regis button",
+            "result": {
+              "status": "passed",
+              "duration": 330000
+            },
+            "line": 15,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 11365874600
+            },
+            "hidden": true,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "regis",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Regis",
+    "tags": [],
+    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\regis.feature"
+  }
+]
