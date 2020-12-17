@@ -9,6 +9,6 @@ module.exports = {
     performFillPhoneno: function () {
         // sleep(5000);
         var selector = page.fillPhoneno.elements.fillPhoneno;
-        return driver.findElement(selector).sendKeys("082212312343");
+        return driver.findElement(selector).sendKeys(shared.id.phoneNo);
     }
 };

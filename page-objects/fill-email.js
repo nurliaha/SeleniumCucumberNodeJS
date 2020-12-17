@@ -9,6 +9,6 @@ module.exports = {
     performFillEmail: function () {
         // sleep(5000);
         var selector = page.fillEmail.elements.fillEmail;
-        return driver.findElement(selector).sendKeys("DianaPrincess@gmail.com");
+        return driver.findElement(selector).sendKeys(shared.id.email);
     }
 };

@@ -14,7 +14,7 @@
             "name": "user browse regis page",
             "result": {
               "status": "passed",
-              "duration": 1213300
+              "duration": 1487800
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "user click regis menu",
             "result": {
               "status": "passed",
-              "duration": 3105500
+              "duration": 392600
             },
             "line": 9,
             "match": {
@@ -40,11 +40,11 @@
             "name": "User click submenuRegis to regis",
             "result": {
               "status": "passed",
-              "duration": 1093500
+              "duration": 991200
             },
             "line": 10,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:13"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:12"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "user fill fullname to regis",
             "result": {
               "status": "passed",
-              "duration": 1019400
+              "duration": 349500
             },
             "line": 11,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:20"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:19"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "user fill email to regis",
             "result": {
               "status": "passed",
-              "duration": 417700
+              "duration": 328000
             },
             "line": 12,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:27"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:25"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "user fill phoneno to regis",
             "result": {
               "status": "passed",
-              "duration": 375600
+              "duration": 270000
             },
             "line": 13,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:33"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:31"
             }
           },
           {
@@ -92,11 +92,11 @@
             "name": "user fill clinicname to regis",
             "result": {
               "status": "passed",
-              "duration": 308900
+              "duration": 416000
             },
             "line": 14,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:39"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:37"
             }
           },
           {
@@ -105,11 +105,11 @@
             "name": "user click regis button",
             "result": {
               "status": "passed",
-              "duration": 330000
+              "duration": 298000
             },
             "line": 15,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:45"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:43"
             }
           },
           {
@@ -117,7 +117,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 11365874600
+              "duration": 11706499900
             },
             "hidden": true,
             "match": {

@@ -9,6 +9,6 @@ module.exports = {
     performFillClinicName: function () {
         // sleep(5000);
         var selector = page.fillClinicName.elements.fillClinicName;
-        return driver.findElement(selector).sendKeys("Klinik Pinter");
+        return driver.findElement(selector).sendKeys(shared.id.clinicName);
     }
 };

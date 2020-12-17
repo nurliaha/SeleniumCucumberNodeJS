@@ -9,6 +9,6 @@ module.exports = {
     performFillFullName: function () {
         // sleep(5000);
         var selector = page.fillFullName.elements.fillFullName;
-        return driver.findElement(selector).sendKeys("Diana Princess");
+        return driver.findElement(selector).sendKeys(shared.id.fullName);
     }
 };

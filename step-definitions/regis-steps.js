@@ -4,21 +4,19 @@ module.exports = function () {
     });
 
     this.Given(/^user click regis menu$/, function () {
-        console.log("user click regis menu OK")
         driver.then(function (){
             return page.clickRegisMenu.performClickRegisMenu()
         })
     });
 
     this.Given(/^User click submenuRegis to regis$/, function () {
-        console.log("User click submenuRegis to regis OK")
+        driver.sleep(3000)
         driver.then(function (){
             return page.clickSubmenuRegis.performClickSubmenuRegis()
         })
     });
 
     this.Given(/^user fill fullname to regis$/, function () {
-        console.log("user fill fullname to regis OK")
         driver.then(function (){
             return page.fillFullName.performFillFullName()
         })
