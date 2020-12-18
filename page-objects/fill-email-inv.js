@@ -7,7 +7,6 @@ module.exports = {
     },
 
     performFillEmail: function () {
-        // sleep(5000);
         var selector = page.fillEmailInv.elements.fillEmailInv;
         return driver.findElement(selector).sendKeys(shared.id.emailinv);
     }

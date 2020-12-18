@@ -10,7 +10,7 @@ module.exports = function () {
     });
 
     this.Given(/^User click submenuRegis to regis$/, function () {
-        driver.sleep(3000)
+        driver.manage().timeouts().implicitlyWait(15000);
         driver.then(function (){
             return page.clickSubmenuRegis.performClickSubmenuRegis()
         })
@@ -41,9 +41,9 @@ module.exports = function () {
     });
 
     this.Then(/^user click regis button$/, function () {
+        driver.manage().timeouts().implicitlyWait(1000);
         driver.then(function (){
             return page.clickRegisBtn.performClickRegisBtn()
         })
-        
     });
 }

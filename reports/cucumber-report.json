@@ -3,87 +3,87 @@
     "description": "    As a user\n    I want to be able to login",
     "elements": [
       {
-        "id": "login;login-on-the-website",
+        "id": "login;login-on-digiclinic.id-page-and-wrong-password",
         "keyword": "Scenario",
         "line": 7,
-        "name": "Login on the website",
+        "name": "Login on digiclinic.id page and wrong password",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse web digiclinic",
+            "name": "user browse digiclinic.id",
             "result": {
               "status": "passed",
-              "duration": 1613500
+              "duration": 1121100
             },
             "line": 8,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:3"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:2"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user click login menu",
+            "name": "user click login menu on digiclinic.id",
             "result": {
               "status": "passed",
-              "duration": 431500
+              "duration": 1891500
             },
             "line": 9,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:7"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill email to login",
+            "name": "user fill email field to login on digiclinic.id",
             "result": {
               "status": "passed",
-              "duration": 728800
+              "duration": 346100
             },
             "line": 10,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:13"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:13"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill password to login",
+            "name": "user fill password field to login on digiclinic.id",
             "result": {
               "status": "passed",
-              "duration": 432900
+              "duration": 285200
             },
             "line": 11,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:21"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:19"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "user click login button",
+            "name": "user click login button on digiclinic.id",
             "result": {
               "status": "passed",
-              "duration": 744400
+              "duration": 233900
             },
             "line": 12,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:27"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:25"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "user can view welcome",
+            "name": "the user can view wrong password message on digiclinic.id",
             "result": {
               "status": "passed",
-              "duration": 462200
+              "duration": 350100
             },
             "line": 13,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:33"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:31"
             }
           },
           {
@@ -91,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 17362338400
+              "duration": 18320367600
             },
             "hidden": true,
             "match": {
@@ -108,6 +108,6 @@
     "line": 3,
     "name": "Login",
     "tags": [],
-    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\login.feature"
+    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\login-pass-invalid.feature"
   }
 ]

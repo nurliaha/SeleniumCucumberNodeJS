@@ -5,17 +5,17 @@ module.exports = function () {
     });
 
     this.Given(/^user click login menu$/, function () {
+        driver.manage().timeouts().implicitlyWait(15000);
         driver.then(function (){
             return page.clickLoginMenu.performClickLoginMenu()
         })
     });
      
     this.Given(/^user fill email to login$/, function () {
-        driver.sleep(1000);
         driver.then(function (){
             return page.fillEmailLogin.performFillEmailLogin()
         })
-      });
+    });
 
     
     this.Given(/^user fill password to login$/, function () {
@@ -32,6 +32,5 @@ module.exports = function () {
 
     this.Then(/^user can view welcome$/, function () {
         driver.sleep(3000)
-      });
-    
+    }); 
 }

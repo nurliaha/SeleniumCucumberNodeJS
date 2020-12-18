@@ -4,14 +4,12 @@ module.exports = function () {
     });   
 
     this.Given(/^user click lupa sandi menu$/, function () {
-        driver.sleep(200)
         driver.then(function (){
             return page.clickLupaSandiMenu.perform()
         })
     }); 
     
     this.Given(/^user fill email to reset password$/, function () {
-        // driver.sleep(200)
         driver.then(function (){
             return page.fillEmailLupas.performEmailLupas()
         })
