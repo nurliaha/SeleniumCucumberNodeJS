@@ -8,6 +8,6 @@ module.exports = {
 
     performFillPassLogin: function () {
         var selector = page.fillPassLogin.elements.fillPassLogin;
-        return driver.findElement(selector).sendKeys("1234");
+        return driver.findElement(selector).sendKeys(shared.id.passLogin);
     }
 };

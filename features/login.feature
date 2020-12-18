@@ -5,9 +5,9 @@ Feature: Login
     I want to be able to login
 
     Scenario: Login on the website
-        Given user browse login page
+        Given user browse web digiclinic
         And user click login menu
-        # And User click submenulogin to login
         And user fill email to login
-        When user fill password to login
-        Then user click login button
+        And user fill password to login
+        When user click login button
+        Then user can view welcome

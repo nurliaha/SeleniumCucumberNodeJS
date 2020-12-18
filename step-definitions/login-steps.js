@@ -1,7 +1,7 @@
 module.exports = function () {
     
-    this.Given(/^user browse login page$/, function () {
-        helpers.loadPage(shared.pages.loginLink)
+    this.Given(/^user browse web digiclinic$/, function () {
+        helpers.loadPage(shared.pages.digiLink)
     });
 
     this.Given(/^user click login menu$/, function () {
@@ -18,18 +18,20 @@ module.exports = function () {
       });
 
     
-    this.When(/^user fill password to login$/, function () {
+    this.Given(/^user fill password to login$/, function () {
         driver.then(function (){
             return page.fillPassLogin.performFillPassLogin()
         })
     });
     
-    this.Then(/^user click login button$/, function () {
+    this.When(/^user click login button$/, function () {
         driver.then(function (){
             return page.clickLoginBtn.performClickLoginBtn()
         })
     });
 
-
+    this.Then(/^user can view welcome$/, function () {
+        driver.sleep(3000)
+      });
     
 }
