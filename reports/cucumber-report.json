@@ -1,115 +1,89 @@
 [
   {
-    "description": "    As a user\n    I want to be able to regis",
+    "description": "    As a user\n    I want to be able to login",
     "elements": [
       {
-        "id": "regis;regis-on-digiclinic-user",
+        "id": "login;login-on-the-website",
         "keyword": "Scenario",
         "line": 7,
-        "name": "Regis on digiclinic user",
+        "name": "Login on the website",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse regis page",
+            "name": "user browse web digiclinic",
             "result": {
               "status": "passed",
-              "duration": 1487800
+              "duration": 1613500
             },
             "line": 8,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:2"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:3"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user click regis menu",
+            "name": "user click login menu",
             "result": {
               "status": "passed",
-              "duration": 392600
+              "duration": 431500
             },
             "line": 9,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:6"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:7"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "User click submenuRegis to regis",
+            "name": "user fill email to login",
             "result": {
               "status": "passed",
-              "duration": 991200
+              "duration": 728800
             },
             "line": 10,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:12"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:13"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill fullname to regis",
+            "name": "user fill password to login",
             "result": {
               "status": "passed",
-              "duration": 349500
+              "duration": 432900
             },
             "line": 11,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:19"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill email to regis",
-            "result": {
-              "status": "passed",
-              "duration": 328000
-            },
-            "line": 12,
-            "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:25"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill phoneno to regis",
-            "result": {
-              "status": "passed",
-              "duration": 270000
-            },
-            "line": 13,
-            "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:31"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:21"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "user fill clinicname to regis",
+            "name": "user click login button",
             "result": {
               "status": "passed",
-              "duration": 416000
+              "duration": 744400
             },
-            "line": 14,
+            "line": 12,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:37"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:27"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "user click regis button",
+            "name": "user can view welcome",
             "result": {
               "status": "passed",
-              "duration": 298000
+              "duration": 462200
             },
-            "line": 15,
+            "line": 13,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-steps.js:43"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:33"
             }
           },
           {
@@ -117,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 11706499900
+              "duration": 17362338400
             },
             "hidden": true,
             "match": {
@@ -129,11 +103,11 @@
         "type": "scenario"
       }
     ],
-    "id": "regis",
+    "id": "login",
     "keyword": "Feature",
     "line": 3,
-    "name": "Regis",
+    "name": "Login",
     "tags": [],
-    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\regis.feature"
+    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\login.feature"
   }
 ]

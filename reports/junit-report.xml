@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="regis;regis-on-digiclinic-user" tests="8" failures="0" skipped="0">
+    <testsuite name="login;login-on-the-website" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="D:\Automation Testing\Functional-Testing-Pro3\features\regis.feature">
+            <property name="URI" value="D:\Automation Testing\Functional-Testing-Pro3\features\login.feature">
             </property>
         </properties>
-        <testcase name="Given user browse regis page" classname="regis;regis-on-digiclinic-user" time="0.0014878">
+        <testcase name="Given user browse web digiclinic" classname="login;login-on-the-website" time="0.0016135">
         </testcase>
-        <testcase name="And user click regis menu" classname="regis;regis-on-digiclinic-user" time="0.0003926">
+        <testcase name="And user click login menu" classname="login;login-on-the-website" time="0.0004315">
         </testcase>
-        <testcase name="And User click submenuRegis to regis" classname="regis;regis-on-digiclinic-user" time="0.0009912">
+        <testcase name="And user fill email to login" classname="login;login-on-the-website" time="0.0007288">
         </testcase>
-        <testcase name="And user fill fullname to regis" classname="regis;regis-on-digiclinic-user" time="0.0003495">
+        <testcase name="And user fill password to login" classname="login;login-on-the-website" time="0.0004329">
         </testcase>
-        <testcase name="And user fill email to regis" classname="regis;regis-on-digiclinic-user" time="0.000328">
+        <testcase name="When user click login button" classname="login;login-on-the-website" time="0.0007444">
         </testcase>
-        <testcase name="And user fill phoneno to regis" classname="regis;regis-on-digiclinic-user" time="0.00027">
-        </testcase>
-        <testcase name="When user fill clinicname to regis" classname="regis;regis-on-digiclinic-user" time="0.000416">
-        </testcase>
-        <testcase name="Then user click regis button" classname="regis;regis-on-digiclinic-user" time="0.000298">
+        <testcase name="Then user can view welcome" classname="login;login-on-the-website" time="0.0004622">
         </testcase>
     </testsuite>
 </testsuites>

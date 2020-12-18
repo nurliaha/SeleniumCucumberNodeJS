@@ -11,7 +11,7 @@ module.exports = function () {
     });
      
     this.Given(/^user fill email to login$/, function () {
-        driver.sleep(100);
+        driver.sleep(1000);
         driver.then(function (){
             return page.fillEmailLogin.performFillEmailLogin()
         })

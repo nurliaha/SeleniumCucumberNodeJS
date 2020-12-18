@@ -3,7 +3,7 @@ module.exports = {
     url: 'https://digiclinic.id/',
 
     elements: {
-        clickLoginMenu: by.xpath("//*[@id='header']/div/nav/ul/li[5]/a")
+        clickLoginMenu: by.xpath("//header/div[1]/nav[1]/ul[1]/li[5]/a[1]")
     },
 
     performClickLoginMenu: function () {
