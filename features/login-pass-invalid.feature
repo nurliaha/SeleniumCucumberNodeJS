@@ -1,4 +1,4 @@
-# ./feature/regisfailed.feature
+# ./feature/loginfailed.feature
 # TS_Login_02 (case password field salah)
 Feature: Login
     As a user

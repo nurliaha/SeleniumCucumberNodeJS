@@ -6,5 +6,6 @@ module.exports = {
     clinicName: "Klinik Pinter",
     emailLogin: "projectli2220@gmail.com",
     passLogin: "testing1234",
-    passinv: "testing12"
+    passinv: "testing12",
+    passreq: ""
 }
