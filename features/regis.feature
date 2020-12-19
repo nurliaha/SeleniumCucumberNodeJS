@@ -1,5 +1,4 @@
 # ./features/regis.feature
-
 Feature: Regis
     As a user
     I want to be able to regis

@@ -22,7 +22,7 @@ module.exports = function () {
         })
     });
 
-    this.Given(/^user fill email consist to register$/, function () {
+    this.Given(/^user fill email already registered before to register$/, function () {
         driver.sleep(200).then(function (){
           return page.fillEmail.performFillEmail()
         })  
@@ -46,7 +46,7 @@ module.exports = function () {
         })
     });
 
-    this.Then(/^user fail and email is registered$/, function () {
+    this.Then(/^user failed reigistration and can view eror message “the email containts in used”$/, function () {
         driver.sleep(3000)
     });
 }
