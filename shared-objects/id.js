@@ -11,5 +11,6 @@ module.exports = {
     passLogin: "dhina1234",
     passinv: "testing12",
     passreq: "",
-    clinicNames: ""
+    clinicNames: "",
+    fullNames : "Dhina Nur fitriana"
 }

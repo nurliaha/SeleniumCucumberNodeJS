@@ -1,128 +1,89 @@
 [
   {
-    "description": "    As a user\n    I want to be able to registration failed and clinic name file is required",
+    "description": "    As a user \n    I want be able to reset passowrd",
     "elements": [
       {
-        "id": "regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required",
+        "id": "reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "Regis on digiclinic failed and clinic name file is required",
+        "line": 7,
+        "name": "Reset password fail dan nullemail email field",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse digiclinic apps",
+            "name": "user browse digiclinic page",
             "result": {
               "status": "passed",
-              "duration": 3573900
-            },
-            "line": 7,
-            "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:2"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user click regis menu to regis on digicilinic apps",
-            "result": {
-              "status": "passed",
-              "duration": 1981000
+              "duration": 1110900
             },
             "line": 8,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:6"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-steps.js:2"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user click submenu regis to regis on digicilinic apps",
+            "name": "user click login menu",
             "result": {
               "status": "passed",
-              "duration": 553000
+              "duration": 1043300
             },
             "line": 9,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:13"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:7"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill fullname to regis on digicilinic apps",
+            "name": "user click lupa sandi menu",
             "result": {
               "status": "passed",
-              "duration": 377300
+              "duration": 280500
             },
             "line": 10,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:20"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-steps.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill email to regis on digicilinic apps",
+            "name": "user fill email field with null email",
             "result": {
               "status": "passed",
-              "duration": 957400
+              "duration": 252900
             },
             "line": 11,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill phone number to regis on digicilinic apps",
-            "result": {
-              "status": "passed",
-              "duration": 1413400
-            },
-            "line": 12,
-            "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:32"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "user fill clinic name field to regis on digicilinic apps",
-            "result": {
-              "status": "passed",
-              "duration": 635000
-            },
-            "line": 13,
-            "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:38"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-nullemail-steps.js:2"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "user click regis button to regis on digicilinic apps",
+            "name": "user click lupa sandi button",
             "result": {
               "status": "passed",
-              "duration": 2891300
+              "duration": 253600
             },
-            "line": 14,
+            "line": 12,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:44"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-steps.js:18"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user failed regis and the clinic field is required",
+            "name": "user can see notification email not found",
             "result": {
               "status": "passed",
-              "duration": 1067000
+              "duration": 502200
             },
-            "line": 15,
+            "line": 13,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:50"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-nullemail-steps.js:8"
             }
           },
           {
@@ -130,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 18243622400
+              "duration": 10779576000
             },
             "hidden": true,
             "match": {
@@ -142,11 +103,11 @@
         "type": "scenario"
       }
     ],
-    "id": "regis",
+    "id": "reset-passowrd-nullemail",
     "keyword": "Feature",
-    "line": 2,
-    "name": "Regis",
+    "line": 3,
+    "name": "Reset passowrd nullemail",
     "tags": [],
-    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\regis-fail-clinic.feature"
+    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\lupa-sandi-nullemail.feature"
   }
 ]

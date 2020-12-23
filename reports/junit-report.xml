@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" tests="9" failures="0" skipped="0">
+    <testsuite name="reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="D:\Automation Testing\Functional-Testing-Pro3\features\regis-fail-clinic.feature">
+            <property name="URI" value="D:\Automation Testing\Functional-Testing-Pro3\features\lupa-sandi-nullemail.feature">
             </property>
         </properties>
-        <testcase name="Given user browse digiclinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0035739">
+        <testcase name="Given user browse digiclinic page" classname="reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field" time="0.0011109">
         </testcase>
-        <testcase name="And user click regis menu to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.001981">
+        <testcase name="And user click login menu" classname="reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field" time="0.0010433">
         </testcase>
-        <testcase name="And user click submenu regis to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.000553">
+        <testcase name="And user click lupa sandi menu" classname="reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field" time="0.0002805">
         </testcase>
-        <testcase name="And user fill fullname to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0003773">
+        <testcase name="And user fill email field with null email" classname="reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field" time="0.0002529">
         </testcase>
-        <testcase name="And user fill email to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0009574">
+        <testcase name="When user click lupa sandi button" classname="reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field" time="0.0002536">
         </testcase>
-        <testcase name="And user fill phone number to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0014134">
-        </testcase>
-        <testcase name="And user fill clinic name field to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.000635">
-        </testcase>
-        <testcase name="When user click regis button to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0028913">
-        </testcase>
-        <testcase name="Then the user failed regis and the clinic field is required" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.001067">
+        <testcase name="Then user can see notification email not found" classname="reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field" time="0.0005022">
         </testcase>
     </testsuite>
 </testsuites>
