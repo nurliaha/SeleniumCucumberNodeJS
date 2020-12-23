@@ -7,8 +7,9 @@ module.exports = {
     phoneNo: "082212312343",
     phoneNoInv:"08221345665789542",
     clinicName: "Klinik Pinter",
-    emailLogin: "projectli2220@gmail.com",
-    passLogin: "testing1234",
+    emailLogin: "dhnur.fitriana@gmail.com ",
+    passLogin: "dhina1234",
     passinv: "testing12",
-    passreq: ""
+    passreq: "",
+    clinicNames: ""
 }

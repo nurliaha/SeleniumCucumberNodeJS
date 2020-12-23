@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="login;login-on-digiclinic.id-page-and-wrong-password" tests="6" failures="0" skipped="0">
+    <testsuite name="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" tests="9" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="D:\Automation Testing\Functional-Testing-Pro3\features\login-pass-invalid.feature">
+            <property name="URI" value="D:\Automation Testing\Functional-Testing-Pro3\features\regis-fail-clinic.feature">
             </property>
         </properties>
-        <testcase name="Given user browse digiclinic.id" classname="login;login-on-digiclinic.id-page-and-wrong-password" time="0.0011211">
+        <testcase name="Given user browse digiclinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0035739">
         </testcase>
-        <testcase name="And user click login menu on digiclinic.id" classname="login;login-on-digiclinic.id-page-and-wrong-password" time="0.0018915">
+        <testcase name="And user click regis menu to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.001981">
         </testcase>
-        <testcase name="And user fill email field to login on digiclinic.id" classname="login;login-on-digiclinic.id-page-and-wrong-password" time="0.0003461">
+        <testcase name="And user click submenu regis to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.000553">
         </testcase>
-        <testcase name="And user fill password field to login on digiclinic.id" classname="login;login-on-digiclinic.id-page-and-wrong-password" time="0.0002852">
+        <testcase name="And user fill fullname to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0003773">
         </testcase>
-        <testcase name="When user click login button on digiclinic.id" classname="login;login-on-digiclinic.id-page-and-wrong-password" time="0.0002339">
+        <testcase name="And user fill email to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0009574">
         </testcase>
-        <testcase name="Then the user can view wrong password message on digiclinic.id" classname="login;login-on-digiclinic.id-page-and-wrong-password" time="0.0003501">
+        <testcase name="And user fill phone number to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0014134">
+        </testcase>
+        <testcase name="And user fill clinic name field to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.000635">
+        </testcase>
+        <testcase name="When user click regis button to regis on digicilinic apps" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.0028913">
+        </testcase>
+        <testcase name="Then the user failed regis and the clinic field is required" classname="regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required" time="0.001067">
         </testcase>
     </testsuite>
 </testsuites>

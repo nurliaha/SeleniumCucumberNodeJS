@@ -1,89 +1,128 @@
 [
   {
-    "description": "    As a user\n    I want to be able to login",
+    "description": "    As a user\n    I want to be able to registration failed and clinic name file is required",
     "elements": [
       {
-        "id": "login;login-on-digiclinic.id-page-and-wrong-password",
+        "id": "regis;regis-on-digiclinic-failed-and-clinic-name-file-is-required",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Login on digiclinic.id page and wrong password",
+        "line": 6,
+        "name": "Regis on digiclinic failed and clinic name file is required",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse digiclinic.id",
+            "name": "user browse digiclinic apps",
             "result": {
               "status": "passed",
-              "duration": 1121100
+              "duration": 3573900
+            },
+            "line": 7,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click regis menu to regis on digicilinic apps",
+            "result": {
+              "status": "passed",
+              "duration": 1981000
             },
             "line": 8,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:2"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user click login menu on digiclinic.id",
+            "name": "user click submenu regis to regis on digicilinic apps",
             "result": {
               "status": "passed",
-              "duration": 1891500
+              "duration": 553000
             },
             "line": 9,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:6"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:13"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill email field to login on digiclinic.id",
+            "name": "user fill fullname to regis on digicilinic apps",
             "result": {
               "status": "passed",
-              "duration": 346100
+              "duration": 377300
             },
             "line": 10,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:13"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:20"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill password field to login on digiclinic.id",
+            "name": "user fill email to regis on digicilinic apps",
             "result": {
               "status": "passed",
-              "duration": 285200
+              "duration": 957400
             },
             "line": 11,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:19"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill phone number to regis on digicilinic apps",
+            "result": {
+              "status": "passed",
+              "duration": 1413400
+            },
+            "line": 12,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill clinic name field to regis on digicilinic apps",
+            "result": {
+              "status": "passed",
+              "duration": 635000
+            },
+            "line": 13,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:38"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "user click login button on digiclinic.id",
+            "name": "user click regis button to regis on digicilinic apps",
             "result": {
               "status": "passed",
-              "duration": 233900
+              "duration": 2891300
             },
-            "line": 12,
+            "line": 14,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:25"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:44"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user can view wrong password message on digiclinic.id",
+            "name": "the user failed regis and the clinic field is required",
             "result": {
               "status": "passed",
-              "duration": 350100
+              "duration": 1067000
             },
-            "line": 13,
+            "line": 15,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-pass-invalid-steps.js:31"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\regis-fail-clinic-steps.js:50"
             }
           },
           {
@@ -91,7 +130,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 18320367600
+              "duration": 18243622400
             },
             "hidden": true,
             "match": {
@@ -103,11 +142,11 @@
         "type": "scenario"
       }
     ],
-    "id": "login",
+    "id": "regis",
     "keyword": "Feature",
-    "line": 3,
-    "name": "Login",
+    "line": 2,
+    "name": "Regis",
     "tags": [],
-    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\login-pass-invalid.feature"
+    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\regis-fail-clinic.feature"
   }
 ]

@@ -20,7 +20,7 @@ module.exports = function () {
     this.Given(/^user fill fullname to regis on digiclinic site$/, function () {
         driver.then(function (){
             return page.fillFullName.performFillFullName()
-          })
+        })
     });
 
     this.Given(/^user fill email to regis on digiclinic site$/, function () {
@@ -38,7 +38,7 @@ module.exports = function () {
     this.Given(/^user fill clinic name field to regis digiclinic site$/, function () {
         driver.then(function (){
             return page.fillClinicName.performFillClinicName()
-          })
+        })
     });
 
     this.When(/^user click regis button on digiclinic site$/, function () {
