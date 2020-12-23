@@ -6,7 +6,7 @@ Feature: Edit nama akun digiclinic
     I want be able to edit akun name 
     Scenario: edit name on digiclinic account
         Given user browse web digiclinic
-        And user click login menu
+        And user click login menu 
         And user fill email to login
         And user fill password to login
         And user click login button
@@ -18,7 +18,7 @@ Feature: Edit nama akun digiclinic
         And user click x button 
         And user click akunn menu
         And user click keluar menu
-        And user click masuk menu
+        And user click login menu
         And user fill email to login
         And user fill password to login
         When user click login button

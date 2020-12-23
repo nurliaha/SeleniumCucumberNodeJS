@@ -1,24 +1,24 @@
 [
   {
-    "description": "    As a user \n    I want be able to reset passowrd",
+    "description": "    As a user \n    I want be able to edit akun name ",
     "elements": [
       {
-        "id": "reset-passowrd-nullemail;reset-password-fail-dan-nullemail-email-field",
+        "id": "edit-nama-akun-digiclinic;edit-name-on-digiclinic-account",
         "keyword": "Scenario",
         "line": 7,
-        "name": "Reset password fail dan nullemail email field",
+        "name": "edit name on digiclinic account",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "user browse digiclinic page",
+            "name": "user browse web digiclinic",
             "result": {
               "status": "passed",
-              "duration": 1110900
+              "duration": 1224700
             },
             "line": 8,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-steps.js:2"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:3"
             }
           },
           {
@@ -27,7 +27,7 @@
             "name": "user click login menu",
             "result": {
               "status": "passed",
-              "duration": 1043300
+              "duration": 934000
             },
             "line": 9,
             "match": {
@@ -37,61 +37,218 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user click lupa sandi menu",
+            "name": "user fill email to login",
             "result": {
               "status": "passed",
-              "duration": 280500
+              "duration": 278000
             },
             "line": 10,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-steps.js:6"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:14"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "user fill email field with null email",
+            "name": "user fill password to login",
             "result": {
               "status": "passed",
-              "duration": 252900
+              "duration": 231000
             },
             "line": 11,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-nullemail-steps.js:2"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login button",
+            "result": {
+              "status": "passed",
+              "duration": 187000
+            },
+            "line": 12,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user can login and edit account",
+            "result": {
+              "status": "passed",
+              "duration": 835700
+            },
+            "line": 13,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click akun menu",
+            "result": {
+              "status": "passed",
+              "duration": 543600
+            },
+            "line": 14,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click edit akun menu",
+            "result": {
+              "status": "passed",
+              "duration": 183300
+            },
+            "line": 15,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill nama lengkap field",
+            "result": {
+              "status": "passed",
+              "duration": 226700
+            },
+            "line": 16,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click ubah sekarang button",
+            "result": {
+              "status": "passed",
+              "duration": 162100
+            },
+            "line": 17,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click x button",
+            "result": {
+              "status": "passed",
+              "duration": 168800
+            },
+            "line": 18,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click akunn menu",
+            "result": {
+              "status": "passed",
+              "duration": 473200
+            },
+            "line": 19,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click keluar menu",
+            "result": {
+              "status": "passed",
+              "duration": 680300
+            },
+            "line": 20,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click login menu",
+            "result": {
+              "status": "passed",
+              "duration": 220500
+            },
+            "line": 21,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email to login",
+            "result": {
+              "status": "passed",
+              "duration": 92700
+            },
+            "line": 22,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password to login",
+            "result": {
+              "status": "passed",
+              "duration": 95700
+            },
+            "line": 23,
+            "match": {
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:21"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "user click lupa sandi button",
+            "name": "user click login button",
             "result": {
               "status": "passed",
-              "duration": 253600
+              "duration": 247000
             },
-            "line": 12,
+            "line": 24,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-steps.js:18"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\login-steps.js:27"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "user can see notification email not found",
+            "name": "user cannot see the menu",
             "result": {
               "status": "passed",
-              "duration": 502200
+              "duration": 521200
             },
-            "line": 13,
+            "line": 25,
             "match": {
-              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\lupa-sandi-nullemail-steps.js:8"
+              "location": "Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:56"
             }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "passed",
-              "duration": 10779576000
+              "status": "failed",
+              "duration": 28435043900,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html[1]/body[1]/header[1]/div[1]/nav[1]/ul[1]/li[7]/a[1]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.18363 x86_64)\n    at Object.checkLegacyResponse (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.findElement(By(xpath, /html[1]/body[1]/header[1]/div[1]/nav[1]/ul[1]/li[7]/a[1]))\n    at thenableWebDriverProxy.schedule (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.findElement (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1014:17)\n    at Object.performClickAkunMenu (D:\\Automation Testing\\Functional-Testing-Pro3\\page-objects\\click-akun-menu.js:12:23)\n    at D:\\Automation Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:10:39\n    at ManagedPromise.invokeCallback_ (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27\n    at D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\nFrom: Task: WebElement.click()\n    at thenableWebDriverProxy.schedule (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at WebElementPromise.schedule_ (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2015:25)\n    at WebElementPromise.click (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2096:17)\n    at Object.performClickAkunMenu (D:\\Automation Testing\\Functional-Testing-Pro3\\page-objects\\click-akun-menu.js:12:45)\n    at D:\\Automation Testing\\Functional-Testing-Pro3\\step-definitions\\edit-nama-akun-steps.js:10:39\n    at ManagedPromise.invokeCallback_ (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27\n    at D:\\Automation Testing\\Functional-Testing-Pro3\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7"
             },
             "hidden": true,
             "match": {
@@ -103,11 +260,11 @@
         "type": "scenario"
       }
     ],
-    "id": "reset-passowrd-nullemail",
+    "id": "edit-nama-akun-digiclinic",
     "keyword": "Feature",
     "line": 3,
-    "name": "Reset passowrd nullemail",
+    "name": "Edit nama akun digiclinic",
     "tags": [],
-    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\lupa-sandi-nullemail.feature"
+    "uri": "D:\\Automation Testing\\Functional-Testing-Pro3\\features\\edit-nama-akun.feature"
   }
 ]
